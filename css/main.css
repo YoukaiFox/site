@@ -1,0 +1,36 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.home {
+    margin: 0;
+    width: 100%;
+    background-color: black;
+    height: 64px;
+}
+main {
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+.logo {
+    float: left;
+    width: 70%;
+}
+.social ul li{
+    margin-left: 20px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+}
+.social{
+    margin-top: 0;
+    width: 30%;
+    float: right;
+}
+.welcome {
+    width: 100%;
+    background-color:indigo;
+    height: 720px;
+}
