@@ -1,5 +1,11 @@
+
 <html>
     <head>
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+        </style>
         <link rel = "stylesheet" type ="text/css" href="./css/main.css">
         <title>Youkai Fox Game Studio</title>
     </head>
@@ -21,27 +27,33 @@
             </main>
         </header>
         <main>
-            <div class = "welcome">
+            <div class = "welcome" id="welcome">
                     <t class = "welcomeText">
                         Welcome to <br>
                         Youkai Fox Game Studio
                     </t>
+                    <a class="arrow" href="#gamesSC" disabled="disabled"><img src="./img/arrowDown.png"></a>
             </div>
         </main>
         <main>
-            <div class = "games">
-                Games
+            <div class = "games" id="gamesSC">
+                    Games
+                    <ul>
+                        <li> <img src="./img/capaTMD.png" height="256"></li>
+                        <li> <img src="./img/capaRTJ.png" height="256"></li>
+                    </ul>
             </div>
         </main>
         <main>
             <div class = "aboutus">
-                About Us
+                <img src="./img/Fox(512x512).png" height="256">
+                a game developer studio
             </div>
         </main>
         <footer>
             <main>
                 <div class = "footer">
-                    contac us
+                    <h1 class ="footerText">contac us</h1>
                 </div>
             </main>
         </footer>

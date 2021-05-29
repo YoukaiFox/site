@@ -45,11 +45,17 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.arrow{
+    width: 48px;
+    height: 48px;
+    margin-left: 50%;
+}
 .welcomeText {
     font-family: foxfont;
     font-size: 48px;
     color: white;
     float: left;
+    position: static;
     text-align: center;
     margin-top: 10%;
     margin-bottom: 20%;
@@ -61,8 +67,18 @@ main {
 .games {
     width: 100%;
     height: 100%;
+    position: relative;
     background-color :darkorange;
     font-size: 48px;
+}
+.games ul li{
+    float: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    margin-top: 10;
+    display: inline-block;
+    list-style: none;
 }
 .aboutus {
     width: 100%;
@@ -74,5 +90,8 @@ main {
     width: 100%;
     background-color :black;
     height: 10%;  
+}
+.footerText{
+    color: white;
 }
 
