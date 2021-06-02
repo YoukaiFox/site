@@ -1,0 +1,26 @@
+@font-face {
+    font-family: foxfont;
+    src: url("../fonts/DaysOne-Regular.ttf");
+}
+.aboutus {
+    width: 100%;
+    height: 100%;
+    background-color :white;
+    font-size: 48px;
+}
+.aboutus img{
+    float: left;
+    position: absolute;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.aboutus t{
+    float: left;
+    position: absolute;
+    margin-top: 10%;
+    margin-bottom: 50%;
+    margin-left: 50%;
+    margin-right: 50%;
+}

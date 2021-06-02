@@ -1,0 +1,12 @@
+@font-face {
+    font-family: foxfont;
+    src: url("../fonts/DaysOne-Regular.ttf");
+}
+.footer{
+    width: 100%;
+    background-color :black;
+    height: 10%;  
+}
+.footerText{
+    color: white;
+}

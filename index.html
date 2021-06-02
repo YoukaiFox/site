@@ -7,28 +7,36 @@
             }
         </style>
         <link rel = "stylesheet" type ="text/css" href="./css/main.css">
+        <link rel = "stylesheet" type ="text/css" href="./css/games.css">
+        <link rel = "stylesheet" type ="text/css" href="./css/aboutus.css">
+        <link rel = "stylesheet" type ="text/css" href="./css/footer.css">
+        <link rel = "stylesheet" type ="text/css" href="./css/header.css">
+        <link rel = "stylesheet" type ="text/css" href="./css/welcome.css">
         <title>Youkai Fox Game Studio</title>
     </head>
     <body>
-        <header class="home">
-            <main>
-                <div class="header-1">
+        <main>
+            <header class="header">
+                
                     <div class= "logo">
                         <img src = "./img/Logo 64x64.png"/>
                     </div>
-                    <div class ="social">
-                        <ul>
+                    <nav>
+                        <ul class ="social">
                             <li><a href="https://twitter.com/YoukaiFoxStudio" target="_blank"><img src="./img/twittericon.png" height="32"></a></li>
                             <li><a href="https://www.instagram.com/youkaifoxstudio/?hl=pt-br" target="_blank"><img src="./img/instagram.png" height="32"></a></li>
                             <li><a href="https://www.facebook.com/YoukaiFox" target="_blank"><img src="./img/facebookIcon.png" height="32"></a></li>
                         </ul>
-                    </div>
-                </div>
-            </main>
-        </header>
+                    </nav>
+            </header>
+        </main>
         <main>
             <div class = "welcome" id="welcome">
-                    <t class = "welcomeText">
+
+                    <video autoplay muted loop class="videoBg">
+                        <source src="./videos/Trailer_The_Miner_Digs_PlayStore.mp4" type="video/mp4">
+                    </video>
+                    <t class = "welcomeText" >
                         Welcome to <br>
                         Youkai Fox Game Studio
                     </t>
@@ -37,17 +45,19 @@
         </main>
         <main>
             <div class = "games" id="gamesSC">
-                    Games
-                    <ul>
-                        <li> <img src="./img/capaTMD.png" height="256"></li>
-                        <li> <img src="./img/capaRTJ.png" height="256"></li>
-                    </ul>
+                    <t class="gameText">Games</t>
+                    <nav>
+                        <ul class="gameList">
+                            <li> <a href="https://gamejolt.com/games/the-miner-digs/600705" target="_blank"><img src="./img/capaTMD.png" height="256" ></a></li>
+                            <li> <a href="https://gamejolt.com/games/rushing-the-job/617983" target="_blank"><img src="./img/capaRTJ.png" height="256"></a></li>
+                        </ul>
+                    </nav>
             </div>
         </main>
         <main>
             <div class = "aboutus">
                 <img src="./img/Fox(512x512).png" height="256">
-                a game developer studio
+                <t>a game developer studio</t>
             </div>
         </main>
         <footer>
