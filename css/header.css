@@ -3,6 +3,7 @@
     background-color: black;
     display: flex;
     flex-wrap: wrap;
+    min-height: 70px;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
