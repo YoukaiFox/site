@@ -6,104 +6,90 @@
                 scroll-behavior: smooth;
             }
         </style>
-        <link rel = "stylesheet" type ="text/css" href="./css/main.css">
-        <link rel = "stylesheet" type ="text/css" href="./css/games.css">
-        <link rel = "stylesheet" type ="text/css" href="./css/aboutus.css">
-        <link rel = "stylesheet" type ="text/css" href="./css/footer.css">
-        <link rel = "stylesheet" type ="text/css" href="./css/header.css">
-        <link rel = "stylesheet" type ="text/css" href="./css/welcome.css">
-        <link rel = "stylesheet" type ="text/css" href="./css/blog.css">
-        <link rel = "stylesheet" type ="text/css" href="./css/assets.css">
+        <link rel = "stylesheet" type ="text/css" href="./css/style.css">
         <title>Youkai Fox Game Studio</title>
     </head>
     <body>
         <main>
-            <header class="header">
-                
-                    <div class= "logo">
-                        <img src = "./img/Logo 64x64.png"/>
-                    </div>
-                    <nav>
-                        <ul class ="social">
-                            <li><a href="https://twitter.com/YoukaiFoxStudio" target="_blank"><img src="./img/twittericon.png" height="32"></a></li>
-                            <li><a href="https://www.instagram.com/youkaifoxstudio/?hl=pt-br" target="_blank"><img src="./img/instagram.png" height="32"></a></li>
-                            <li><a href="https://www.facebook.com/YoukaiFox" target="_blank"><img src="./img/facebookIcon.png" height="32"></a></li>
-                        </ul>
-                    </nav>
-            </header>
-        </main>
-        <main>
-            <div class = "welcome" id="welcome">
-
-                    <video autoplay muted loop class="videoBg">
-                        <source src="./videos/Trailer_The_Miner_Digs_PlayStore.mp4" type="video/mp4">
-                    </video>
-                    <t class = "welcomeText" >
-                        Welcome to <br>
-                        Youkai Fox Game Studio
-                    </t>
-                    <a class="arrow" href="#gamesSC" disabled="disabled"><img src="./img/arrowDown.png"></a>
-            </div>
-        </main>
-        <main>
-            <div class = "games" id="gamesSC">
-                    <t class="gameText">Games</t>
-                    <nav>
-                        <ul class="gameList">
-                            <li> <a href="https://gamejolt.com/games/the-miner-digs/600705" target="_blank"><img src="./img/capaTMD.png" height="256" ></a></li>
-                            <li> <a href="https://gamejolt.com/games/rushing-the-job/617983" target="_blank"><img src="./img/capaRTJ.png" height="256"></a></li>
-                        </ul>
-                    </nav>
-            </div>
-        </main>
-        <main>
-            <div class = "aboutus">
-                <ul class="insideAboutus">
-                    <li><img src="./img/Fox(512x512).png" height="256"></li>
-                    <li><t class = "TextAboutus">An indie game development studio focused in always bringing something new to the scene.</t></li>
-                </ul>
-            </div>
-        </main>
-        <main>
-            <div class = "blog">
-                <ul class="insideBlog">
-                    <li>
-                        <h1>Blog</h1>
-                    </li>
-                    <li>
-                        <a class="blogText">
-                            Tips about game development
-                        </a>
-                    </li>
-                </ul>
-                <button class="buttonBottonLeft">See articles -></button>
-            </div>
-        </main>
-        <main>
-            <div class = "assets">
-                <ul class="insideassets">
-                    <li><h1>Assets</h1></li>
-                    <li>
-                        <a class="assetsText">
-                            assets we produced for game development, both free and paid
-                        </a>
-                    </li>
-                </ul>
-                <button class="buttonBottonLeft">See assets -></button>
-            </div>
-        </main>
-        <footer>
-            <main>
-                <div class = "footer">
+            <section>
+                <header class="header">
+                    
+                        <div class= "logo">
+                            <img src = "./img/Logo 64x64.png"/>
+                        </div>
                         <nav>
-                            <ul class="footerText">
-                                <li>contac Us</li>
-                                <li >Support</li>
+                            <ul class ="menu">
+                                <li><a href="/" target="_blank">Home</a></li>
+                                <li><a href="/" target="_blank">Games</a></li>
+                                <li><a href="/" target="_blank">About</a></li>
+                                <li><a href="/" target="_blank">Blog</a></li>
+                                <li><a href="/" target="_blank">Assets</a></li>
                             </ul>
                         </nav>
-                </div>
-            </main>
-        </footer>
+                </header>
+            </section>
 
+            <section class="welcome" id="welcome">
+                <video autoplay muted loop class="videoBg">
+                    <source src="./videos/Trailer_The_Miner_Digs_PlayStore.mp4" type="video/mp4">
+                </video>
+                <t class = "welcomeText" >
+                    <span style="background-color:#a91d29">Welcome to</span><br>
+                    <span style="background-color:#a91d29">Youkai Fox Game Studio</span>
+                </t>
+                <div style="flex: 1; text-align: center; z-index: 999; margin-bottom: 5em; place-self: flex-end;">
+                    <a class="arrow" href="#gamesSC" disabled="disabled"><img src="./img/arrowDown.png"></a>
+                </div>
+            </section>
+
+            <section class="games" id="gamesSC">
+                <t class="gameText">Games</t>
+                <nav>
+                    <ul class="gameList">
+                        <li> <a href="https://gamejolt.com/games/the-miner-digs/600705" target="_blank"><img src="./img/capaTMD.png" height="256" ></a></li>
+                        <li> <a href="https://gamejolt.com/games/rushing-the-job/617983" target="_blank"><img src="./img/capaRTJ.png" height="256"></a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section class="card">
+                <img src="./img/Fox(512x512).png" height="256">
+                <div class="flex-column card-info">
+                    <h2>About</h2>
+                    <p>An indie game development studio focused in always bringing something new to the scene.</p>
+                    <a href="#" class="red-end-button">See who are we -></a>
+                </div>
+            </section>
+
+            <section class="card">
+                <div class="flex-column card-info">
+                    <h2>Blog</h2>
+                    <p>Tips about game development.</p>
+                    <a href="#" class="red-end-button">See articles -></a>
+                </div>
+            </section>
+
+            <section class="card">
+                <div class="flex-column card-info">
+                    <h2>Assets</h2>
+                    <p>assets we produced for game development, both free and paid</p>
+                    <a href="#" class="red-end-button">See assets -></a>
+                </div>
+
+            </section>
+
+            <footer>
+                <section>
+                    <div class = "footer">
+                            <nav>
+                                <ul class="footerText">
+                                    <li>contac Us</li>
+                                    <li >Support</li>
+                                </ul>
+                            </nav>
+                    </div>
+                </section>
+            </footer>
+        </main>
     </body>
 </html>
