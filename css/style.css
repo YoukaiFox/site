@@ -90,25 +90,22 @@
 }
 .games {
     width: 100%;
-    height: 100%;
+    flex: 1;
+    background-color :black;
     min-height: 200px;
     position: relative;
-    background-color :black;
-    margin: 0px;
-    padding: 0px;
+    display: flex;
     align-items: center;
+    flex-direction: column;
 }
 .gameList{
-    max-height: 100%;
     display: flex;
+    max-height: 100%;
     justify-content: space-between;
     padding: 20Px;
     align-items: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
     list-style: none;
-    position: absolute;
+    flex: 1;
 }
 .gameList li{
     margin-top: 0;
@@ -119,15 +116,11 @@
     padding: 50px;
 }
 .gametext{
-    max-height: 100%;
     font-family: foxfont;
     font-size: 48px;
     color: white;
     text-align: center;
-    position: absolute;
-    top: 5%;
-    left: 50%;
-    transform: translate(-50%,-5%);
+    flex: 1;
 }
 
 /* header */
@@ -196,12 +189,18 @@ main section {
 /* welcome */
 .welcome {
     width: 100%;
-    height: 100%;
+    flex: 1;
     background-color: black;
     min-height: 200px;
     position: relative;
     display: flex;
     align-items: center;
+    flex-direction: column;
+}
+
+.videoBg {
+    max-width: 100%;
+    opacity: 0.15;
 }
 
 .welcomeText {
@@ -216,13 +215,11 @@ main section {
     transform: translate(-50%,-20%);
 
 }
-.videoBg {
-    position: absolute;
-    top: 0%;
-    left: 50%;
-    transform: translate(-50%,-0%);
-    max-width: 100%;
-    min-width: 100%;
-    min-height: 100%;
-    opacity: 0.15;
+
+.divArrow {
+    flex: 1;
+    text-align: center;
+    z-index: 999;
+    position:absolute;
+    bottom: 25%;
 }
