@@ -28,6 +28,16 @@
     padding: 0 1em;
 }
 
+.card .red-start-button {
+    background-color: #a91d29;
+    color: #FFF;
+    align-self: flex-start;
+    font-size: 22px;
+    min-width: 280px;
+    padding: 0.8rem 0.5rem;
+    text-decoration: none;
+    text-align: center;
+}
 .card .red-end-button {
     background-color: #a91d29;
     color: #FFF;
