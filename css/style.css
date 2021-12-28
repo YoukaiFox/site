@@ -163,6 +163,7 @@
 
 .header nav {
     align-self: flex-end;
+    padding-right: 26px;
 }
 
 .header nav ul.menu {
