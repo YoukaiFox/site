@@ -1,113 +1,125 @@
-
 <html>
-    <head>
-        <style>
-            html {
-                scroll-behavior: smooth;
-            }
-        </style>
-        <link rel = "stylesheet" type ="text/css" href="./css/style.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Youkai Fox Game Studio</title>
-    </head>
-    <body>
-        <main>
-            <section>
-                <header class="header">
-                    
-                        <div class= "logo">
-                            <img src = "./img/Logo 64x64.png"/>
-                        </div>
-                        <nav>
-                            <ul class ="menu">
-                                <li><a href="/">Home</a></li>
-                                <li><a href="#gamesSC">Games</a></li>
-                                <li><a href="#about">About</a></li>
-                                <li><a href="#blog">Blog</a></li>
-                                <li><a href="#assets">Assets</a></li>
-                            </ul>
-                        </nav>
-                </header>
-            </section>
 
-            <section class="welcome" id="welcome">
-                <video autoplay muted loop class="videoBg">
-                    <source src="./videos/Trailer_The_Miner_Digs_PlayStore.mp4" type="video/mp4">
-                </video>
-                <h1 class="welcomeText" >
-                    <span style="color:#ffffff">Youkai Fox</span>
-                    <span style="color:#a91d29">Game Studio</span>
-                </h1>
-                <div class="divArrow">
-                    <a class="arrow" href="#gamesSC" disabled="disabled"><img src="./img/arrowDown.png"></a>
+<head>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youkai Fox Game Studio</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <header class="header">
+
+                <div class="logo">
+                    <img src="./img/Logo 64x64.png" />
                 </div>
-            </section>
+                <nav>
+                    <ul class="menu">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="#gamesSC">Games</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#assets">Assets</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </section>
 
-            <section class="games" id="gamesSC">
-                <h2 class="gameText">Games</h2>
+        <section class="welcome" id="welcome">
+            <video autoplay muted loop class="videoBg">
+                <source src="./videos/Trailer_The_Miner_Digs_PlayStore.mp4" type="video/mp4">
+            </video>
+            <h1 class="welcomeText">
+                <span style="color:#ffffff">Youkai Fox</span>
+                <span style="color:#a91d29">Game Studio</span>
+            </h1>
+            <div class="divArrow">
+                <a class="arrow" href="#gamesSC" disabled="disabled"><img src="./img/arrowDown.png"></a>
+            </div>
+        </section>
 
-                <ul class="gameList">
-                    <li> 
-                        <a href="https://gamejolt.com/games/the-miner-digs/600705" target="_blank" style="height: 100%;">
-                            <div class="game-card" style="height: 300px; width: 360px;">
-                                <img src="./img/capaTMD.png" height="100%">
-                                <div class="game-description" style="position: absolute; bottom: 0; width: 100%; height: 0;">
-                                    <h2>The Miner Digs</h2>
-                                </div>
-                            </div>
+        <section class="games" id="gamesSC">
+            <h2 class="gameText">Games</h2>
+
+            <ul class="gameList">
+                <li>
+                    <div class="game-card">
+                        <a href="https://gamejolt.com/games/the-miner-digs/600705" target="_blank">
+                            <img class="game-card-image" src=" ./img/capaTMD.png">
                         </a>
-                    </li>
-                    <li>
-                        <a href="https://gamejolt.com/games/rushing-the-job/617983" target="_blank"><img src="./img/capaRTJ.png" height="256"></a>
-                        <div class="game-card" style="height: 200px; width: 250px;"></div>
-                    </li>
-                </ul>
-            </section>
-            
-            <section class="card" id="about">
-                <div class="flex-column">
-                    <h2 class="mobile">About</h2>
-                    <div class="flex-row">
-                        <img src="./img/Fox(512x512).png">
-                        <div class="flex-column card-info">
-                            <h2 class="desktop">About</h2>
-                            <p>An indie game development studio focused in always bringing something new to the scene.</p>
+                        <div class="game-description">
+                            <h3 class="game-description-title">The Miner Digs</h3>
+                            <p class="game-description-body">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit. Nunc euismod leo at nunc imperdiet, eget posuere dolor vestibulum.</p>
                         </div>
                     </div>
-                    <a href="#" class="red-end-button">See who are we -></a>
-                </div>
-
-            </section>
-
-            <section class="card" id="blog">
-                <div class="flex-column card-info">
-                    <h2>Blog</h2>
-                    <p>Tips about game development.</p>
-                    <a href="#" class="red-start-button">See articles -></a>
-                </div>
-            </section>
-
-            <section class="card" id="assets">
-                <div class="flex-column card-info">
-                    <h2>Assets</h2>
-                    <p>assets we produced for game development, both free and paid</p>
-                    <a href="#" class="red-end-button">See assets -></a>
-                </div>
-
-            </section>
-            
-            <footer>
-                <section>
-                    <div class = "footer">
-                            <nav>
-                                <ul class="footerText">
-                                    <li>Contact us</li>
-                                    <li >Support</li>
-                                </ul>
-                            </nav>
+                </li>
+                <li>
+                    <div class="game-card">
+                        <a href="https://gamejolt.com/games/rushing-the-job/617983" target="_blank">
+                            <img src=" ./img/capaRTJ.png" height="225px" width="400px">
+                        </a>
+                        <div class="game-description">
+                            <h3 class="game-description-title">Rushing the Job</h3>
+                            <p class="game-description-body">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit. Nunc euismod leo at nunc imperdiet, eget posuere dolor vestibulum.</p>
+                        </div>
                     </div>
-                </section>
-            </footer>
-        </main>
-    </body>
+                </li>
+            </ul>
+        </section>
+
+        <section class="card" id="about">
+            <div class="flex-column">
+                <h2 class="mobile">About</h2>
+                <div class="flex-row">
+                    <img src="./img/Fox(512x512).png">
+                    <div class="flex-column card-info">
+                        <h2 class="desktop">About</h2>
+                        <p>An indie game development studio focused in always bringing something new to the scene.</p>
+                    </div>
+                </div>
+                <a href="#" class="red-end-button">See who are we -></a>
+            </div>
+
+        </section>
+
+        <section class="card" id="blog">
+            <div class="flex-column card-info">
+                <h2>Blog</h2>
+                <p>Tips about game development.</p>
+                <a href="#" class="red-start-button">See articles -></a>
+            </div>
+        </section>
+
+        <section class="card" id="assets">
+            <div class="flex-column card-info">
+                <h2>Assets</h2>
+                <p>assets we produced for game development, both free and paid</p>
+                <a href="#" class="red-end-button">See assets -></a>
+            </div>
+
+        </section>
+
+        <footer>
+            <section>
+                <div class="footer">
+                    <nav>
+                        <ul class="footerText">
+                            <li>Contact us</li>
+                            <li>Support</li>
+                        </ul>
+                    </nav>
+                </div>
+            </section>
+        </footer>
+    </main>
+</body>
+
 </html>

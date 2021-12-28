@@ -140,12 +140,11 @@
 .gameList li{
     margin-top: 0;
     margin-bottom: 0;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .gameList li a{
     display: block;
-    padding-top: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
 }
 .gametext{
     font-family: foxfont;
@@ -155,12 +154,61 @@
 }
 
 .game-card {
-    height: 64px;
+    height: 225px;
+    width: 400px;
     position: relative;
+    border: 6px solid #fff;
+    border-radius: 6px;
+    transition: all .5s ease-out;
+}
+
+.game-card:hover {
+    height: 330px;
+    border: 6px solid #a91d29;
+}
+
+.game-description {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 0px;
+    display: none;
+    text-align: start;
+    flex-direction: column;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
 .game-card:hover .game-description {
-    height: 80px;
+    height: 120px;
+    display: block;
+}
+
+/* .game-card:hover .game-card-image {
+    height: 120px;
+    display: block;
+} */
+
+.game-description-title {
+    color: #FFFFFF;
+    max-lines: 1;
+    font-family: foxfont;
+    font-size: 20px;
+}
+
+.game-description-body {
+    color: #FFFFFF;
+    margin-right: 32px;
+    margin-top: -10px;
+    text-align: justify;
+    overflow-wrap: break-word;
+    font-family: foxfont;
+    font-size: 12px;
+}
+
+.game-card-image {
+    height: 225px;
+    width: 400px;
 }
 
 /* header */
