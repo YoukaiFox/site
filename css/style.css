@@ -155,73 +155,6 @@ main section {
     transform: translate(-50%,-20%);
 }
 
-/* home cards */
-.home-card {
-    background-color :white;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 6em 5em;
-    font-family: foxfont;
-}
-.home-card:nth-child(odd) {
-    background-color: #000;
-    color: #FFF;
-    
-}
-.home-card h2 {
-    font-size: 32px;
-}
-.home-card .home-card-info {
-    flex: 1;
-    padding: 0 1em;
-}
-.home-card .red-start-button {
-    background-color: #a91d29;
-    color: #FFF;
-    align-self: flex-start;
-    font-size: 22px;
-    min-width: 256px;
-    margin-top: 50px;
-    padding: 0.8rem 2rem;
-    border-radius: 6px;
-    text-decoration: none;
-    text-align: center;
-}
-.home-card .red-end-button {
-    background-color: #a91d29;
-    color: #FFF;
-    align-self: flex-end;
-    font-size: 22px;
-    min-width: 256px;
-    margin-top: 50px;
-    padding: 0.8rem 2rem;
-    border-radius: 6px;
-    text-decoration: none;
-    text-align: center;
-}
-.home-card img {
-    max-width: 256px;
-    width: 30%;
-    object-fit: contain;
-    /* flex: 1; */
-}
-.home-card .translucid-decoration-light {
-    color: #FFF;
-    align-self: flex-end;
-    font-size: 22px;
-    min-width: 256px;
-    margin-top: 50px;
-    padding: 0.8rem 2rem;
-    border-radius: 6px;
-    text-decoration: none;
-    text-align: center;
-}
-.home-card-info .flex-row p {
-    margin-left: 1em;
-}
-
 /* games section */
 .games-section {
     width: 100%;
@@ -314,6 +247,73 @@ main section {
     overflow-wrap: break-word;
     font-family: foxfont;
     font-size: 12px;
+}
+
+/* home cards */
+.home-card {
+    background-color :white;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6em 5em;
+    font-family: foxfont;
+}
+.home-card:nth-child(odd) {
+    background-color: #000;
+    color: #FFF;
+    
+}
+.home-card h2 {
+    font-size: 32px;
+}
+.home-card .home-card-info {
+    flex: 1;
+    padding: 0 1em;
+}
+.home-card .red-start-button {
+    background-color: #a91d29;
+    color: #FFF;
+    align-self: flex-start;
+    font-size: 22px;
+    min-width: 256px;
+    margin-top: 50px;
+    padding: 0.8rem 2rem;
+    border-radius: 6px;
+    text-decoration: none;
+    text-align: center;
+}
+.home-card .red-end-button {
+    background-color: #a91d29;
+    color: #FFF;
+    align-self: flex-end;
+    font-size: 22px;
+    min-width: 256px;
+    margin-top: 50px;
+    padding: 0.8rem 2rem;
+    border-radius: 6px;
+    text-decoration: none;
+    text-align: center;
+}
+.home-card img {
+    max-width: 256px;
+    width: 30%;
+    object-fit: contain;
+    /* flex: 1; */
+}
+.home-card .translucid-decoration-light {
+    color: #FFF;
+    align-self: flex-end;
+    font-size: 22px;
+    min-width: 256px;
+    margin-top: 50px;
+    padding: 0.8rem 2rem;
+    border-radius: 6px;
+    text-decoration: none;
+    text-align: center;
+}
+.home-card-info .flex-row p {
+    margin-left: 1em;
 }
 
 /* footer */
