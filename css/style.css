@@ -110,6 +110,19 @@ main section {
     max-height: 100%;
 }
 
+/* .newsletter-button {
+    background-color: #a91d29;
+    text-align: center;
+    height: 25px;
+    padding: 0.1rem 0.1rem;
+    border-radius: 8px;
+}
+
+.newsletter-button:hover {
+    color: #a91d29;
+    background-color: #fff;
+} */
+
 /* welcome */
 .videoBg {
     max-width: 100%;
@@ -149,12 +162,13 @@ main section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5em 10em;
+    padding: 6em 5em;
     font-family: foxfont;
 }
 .home-card:nth-child(odd) {
     background-color: #000;
     color: #FFF;
+    
 }
 .home-card h2 {
     font-size: 32px;
@@ -168,8 +182,10 @@ main section {
     color: #FFF;
     align-self: flex-start;
     font-size: 22px;
-    min-width: 280px;
-    padding: 0.8rem 0.5rem;
+    min-width: 256px;
+    margin-top: 50px;
+    padding: 0.8rem 2rem;
+    border-radius: 6px;
     text-decoration: none;
     text-align: center;
 }
@@ -178,8 +194,10 @@ main section {
     color: #FFF;
     align-self: flex-end;
     font-size: 22px;
-    min-width: 280px;
-    padding: 0.8rem 0.5rem;
+    min-width: 256px;
+    margin-top: 50px;
+    padding: 0.8rem 2rem;
+    border-radius: 6px;
     text-decoration: none;
     text-align: center;
 }
@@ -188,6 +206,17 @@ main section {
     width: 30%;
     object-fit: contain;
     /* flex: 1; */
+}
+.home-card .translucid-decoration-light {
+    color: #FFF;
+    align-self: flex-end;
+    font-size: 22px;
+    min-width: 256px;
+    margin-top: 50px;
+    padding: 0.8rem 2rem;
+    border-radius: 6px;
+    text-decoration: none;
+    text-align: center;
 }
 .home-card-info .flex-row p {
     margin-left: 1em;
