@@ -346,6 +346,7 @@ main section {
     align-items: center;
     flex-direction: row;
     list-style: none;
+    width: initial;
 }
 .footer .social-button {
     color: #a91d29;
@@ -353,18 +354,20 @@ main section {
     padding-right: 40px;
 }
 .footer nav{
-    position: absolute;
     top: 0%;
     left: 0%;
     transform: translate(-0%,-0%);
+    width: inherit;
 }
 .footer-text-links{
+    height: 32px;
     list-style: none;
     align-items: center;
     display: flex;
     flex-direction: row;
-    max-height: 50%;
+    justify-content: center;
     margin-top: 200px;
+    width: initial;
 }
 .footer-text-links li{
     margin-right: 96px;
